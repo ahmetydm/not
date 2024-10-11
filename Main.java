@@ -7,18 +7,18 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen notunuzu giriniz");
-        int puan = scan.nextInt();
+        int point = scan.nextInt();
 
-     if (puan>=90) {
+     if (point>=90) {
          System.out.println("çok iyi");
         }
-        if (puan<90 && puan>69) {
+        if (point<90 && point>69) {
             System.out.println("iyi");
         }
-        if (puan<70 && puan>49) {
+        if (point<70 && point>49) {
             System.out.println("orta");
         }
-        if (puan<50) {
+        if (point<50) {
             System.out.println("kötü");
         }
 
